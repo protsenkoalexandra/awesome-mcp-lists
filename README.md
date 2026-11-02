@@ -129,6 +129,11 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 60 | **atlassian-mcp-server** | Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens. | [GitHub](https://github.com/atlassian/atlassian-mcp-server) |
 | 61 | **SolidPing** | Self-hostable uptime monitor with a built-in MCP server: create, run and diagnose checks across 43 types, read results and incidents, manage status pages and maintenance windows. Remote (OAuth 2.1) or stdio. | [GitHub](https://github.com/fclairamb/solidping) |
 | 62 | **Croncool** | Hosted OAuth MCP for scheduled jobs, execution history, workflows, webhook health and confirmed run-now actions. | [Config](https://github.com/croncool/claude-plugin) · [Docs](https://www.cron.cool/developers/#mcp) |
+| 63 | **TREK** | The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an AI-ready MCP server, with planet-wide place search and routing built in. | [GitHub](https://github.com/liketrek/TREK) |
+| 64 | **Trail-Code** | Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase. | [GitHub](https://github.com/trailhq/Trail-Code) |
+| 65 | **dashboard-icons** | 3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free CDN, plus an MCP server for Claude Code, Codex, ChatGPT, Cursor, Hermes and OpenClaw. | [GitHub](https://github.com/homarr-labs/dashboard-icons) |
+| 66 | **AiSOC** | Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue. | [GitHub](https://github.com/beenuar/AiSOC) |
+| 67 | **mcp-server-cloudflare** | Product specific Cloudflare MCP servers | [GitHub](https://github.com/cloudflare/mcp-server-cloudflare) |
 
 ### Database & Storage
 
@@ -164,6 +169,8 @@ MCP servers for accessing and managing databases and storage solutions.
 | 26 | **x64dbg-mcp-server** | x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig - zero dependencies, single-binary output, cros | [GitHub](https://github.com/duty1g/x64dbg-mcp-server) |
 | 27 | **Douyin_TikTok_Download_API** | 🚀 抖音、TikTok 数据采集与无水印视频下载 API，自托管，支持 MCP 调用与 Docker 一键部署。&#124; Self-hosted TikTok & Douyin scraper and no-watermark video downloader - async REST API, MCP server, CLI and web console for posts, profiles, comments and playlists. Self-healing identity pool, PostgreSQL archive, one docker compose up.  | [GitHub](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) |
 | 28 | **Prisma MCP Server** | Official hosted MCP server (Streamable HTTP, sign in with a Prisma account) for managing Prisma Postgres databases, running SQL, and managing Prisma Compute deployments and Object Storage | [Docs](https://www.prisma.io/docs/ai/tools/mcp-server) |
+| 29 | **xerj** | AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora. | [GitHub](https://github.com/xerj-org/xerj) |
+| 30 | **nightingale** | Open-source, self-hosted alerting for metrics, logs, and databases. Includes a built-in AI agent and MCP server. | [GitHub](https://github.com/ccfos/nightingale) |
 
 ### Web & Content
 
@@ -220,6 +227,8 @@ MCP servers for web search, content access, and web automation.
 | 47 | **naia GEO Autopilot** | Run GEO analyses, read AI visibility reports, generate content, and manage execution plans with [Naia](https://naia.today). Hosted Streamable HTTP with OAuth or API key; npm stdio bridge available. | [GitHub](https://github.com/arielvdl/naia-mcp-server) |
 | 48 | **PDF to MD** | Convert PDFs and scans to Markdown, export Markdown to PDF, and check account usage through a hosted Streamable HTTP MCP server with Bearer API-key authentication. | [Docs](https://pdf-to-md.app/developers) |
 | 49 | **chucho** | Hosted vacation rental search with public photos, property details, and direct host booking links. English/Spanish; Streamable HTTP; free, no auth. Endpoint: `https://chucho.ai/chatgpt/mcp` | [Website](https://chucho.ai/chatgpt/) |
+| 50 | **next-ai-draw-io** | Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code. | [GitHub](https://github.com/DayuanJiang/next-ai-draw-io) |
+| 51 | **appllama-skills** | A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens. | [GitHub](https://github.com/Appllama/appllama-skills) |
 
 ### Integrations & APIs
 
@@ -395,6 +404,8 @@ MCP servers for AI and machine learning capabilities.
 | 74 | **reactive-resume** | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today! | [GitHub](https://github.com/reactive-resume/reactive-resume) |
 | 75 | **editor** | Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents. | [GitHub](https://github.com/pascalorg/editor) |
 | 76 | **rea** | Reverse engineer anything with agents, from app behavior down to native binaries. | [GitHub](https://github.com/morluto/rea) |
+| 77 | **mobile-mcp** | Mobile MCP: let AI agents drive your iOS and Android apps. MCP server for simulators, emulators and real devices. Works with Claude Code, Codex, Cursor and any MCP client. | [GitHub](https://github.com/mobile-next/mobile-mcp) |
+| 78 | **ffmpeg-skill** | Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys. | [GitHub](https://github.com/kajisho5/ffmpeg-skill) |
 
 ### Security & Authentication
 
@@ -449,6 +460,7 @@ MCP servers for AI and machine learning capabilities.
 | 24 | **MobileBuildMCP** | A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects. | [GitHub](https://github.com/getsentry/MobileBuildMCP) |
 | 25 | **OtaKit** | Over-the-air updates for Capacitor apps, as a hosted Streamable HTTP MCP (OAuth) and a local stdio server (`npx -y @otakit/cli@latest mcp`): inspect the project, check native compatibility, upload web bundles, publish releases after human approval, control staged rollouts, read rollout health and revert | [Website](https://otakit.app) · [GitHub](https://github.com/OtaKit/otakit) |
 | 26 | **NoMac** | Hosted Streamable HTTP MCP that gives agents a real cloud Mac with Xcode by the minute: start a macOS VM, run xcodebuild and Simulator commands, move files, open the desktop for a human, manage TestFlight and App Store Connect, then stop it; OAuth, no API key in client config | [Website](https://nomac.app) |
+| 27 | **awesome-remote-mcp-servers** | A collection of remote MCP servers. | [GitHub](https://github.com/punkpeye/awesome-remote-mcp-servers) |
 
 ### Communication
 
